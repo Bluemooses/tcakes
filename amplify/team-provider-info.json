@@ -10,6 +10,11 @@
             "StackName": "amplify-tcakes-dev-120224",
             "StackId": "arn:aws:cloudformation:us-east-2:830447654069:stack/amplify-tcakes-dev-120224/6e81a100-e0ab-11ea-8e03-02ee530ea0b0",
             "AmplifyAppId": "drplf1wdm5cbg"
+        },
+        "categories": {
+            "auth": {
+                "tcakes713d5483": {}
+            }
         }
     }
 }

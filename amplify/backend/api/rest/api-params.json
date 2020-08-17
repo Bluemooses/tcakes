@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/cakes",
+            "lambdaFunction": "cakes",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "rest",
+    "apiName": "rest",
+    "functionArns": [
+        {
+            "lambdaFunction": "cakes"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-tcakes-dev-120224-authRole",
+        "unAuthRoleName": "amplify-tcakes-dev-120224-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "cakes",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
